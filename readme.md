@@ -33,7 +33,7 @@ I found important to have the modified date of this entry, so we could use it to
 
 ### E. Thoughts on what you would have liked to add if you had the time
 
-Certanly more comments and double check the identation;
+Certanly more comments and double check the indentation;
 
 ### F.Any additional comments you have
 
