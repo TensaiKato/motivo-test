@@ -26,7 +26,7 @@ The test uses pure PHP and MySQL, so nothing else is required.
 * Access the url files from items folder in Postman using the desired payload;
 
 
-### D.Any additional stuff you added
+### D. Any additional stuff you added
 
 I found important to have the modified date of this entry, so we could use it to gain more information about which item is selling the most and which is not.
 
@@ -35,7 +35,7 @@ I found important to have the modified date of this entry, so we could use it to
 
 Certanly more comments and double check the indentation;
 
-### F.Any additional comments you have
+### F. Any additional comments you have
 
 It was very fun doing it, I hope this is a good outcome, I had little time to finish it (had some major PC problems lately), but I guess it can show that I'm aware of how a RESTful API works.
 
