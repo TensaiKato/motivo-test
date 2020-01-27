@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "1c9613c8-ea00-4de5-a6df-826bd589af72",
+		"name": "Motivo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\": \"Test\",\r\n\"description\": \"aaaaa\",\r\n\"price\":\"90000\",\r\n\"available_stock\":\"6\",\r\n\"statuss\":\"0\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:63742/motivo/motivo-test/items/create.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "63742",
+					"path": [
+						"motivo",
+						"motivo-test",
+						"items",
+						"create.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:63742/motivo/motivo-test/items/read.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "63742",
+					"path": [
+						"motivo",
+						"motivo-test",
+						"items",
+						"read.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrieve with ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:63742/motivo/motivo-test/items/read.php?id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "63742",
+					"path": [
+						"motivo",
+						"motivo-test",
+						"items",
+						"read.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"id\": 1,\r\n            \"title\": \"Iphone XRR\",\r\n            \"description\": \"Just the right amount of everything\",\r\n            \"price\": 500,\r\n            \"available_stock\": 10,\r\n            \"status\": 1\r\n        }"
+				},
+				"url": {
+					"raw": "http://localhost:63742/motivo/motivo-test/items/update.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "63742",
+					"path": [
+						"motivo",
+						"motivo-test",
+						"items",
+						"update.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"id\" : \"5\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:63742/motivo/motivo-test/items/delete.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "63742",
+					"path": [
+						"motivo",
+						"motivo-test",
+						"items",
+						"delete.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
