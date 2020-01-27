@@ -12,9 +12,7 @@ $items = new Items($db);
 
 $data = json_decode(file_get_contents("php://input"));
 
-
-if(!empty($data->title) && !empty($data->description) &&
-!empty($data->price) && !empty($data->available_stock)) {
+if(!empty($data->title) && !empty($data->description) && !empty($data->price) && !empty($data->available_stock)) {
 
     $items->title = $data->title;
     $items->description = $data->description;
