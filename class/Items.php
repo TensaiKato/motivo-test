@@ -22,7 +22,7 @@ private $_itemsTable = "items";
   	$this->price = htmlspecialchars(strip_tags($this->price));
   	$this->available_stock = htmlspecialchars(strip_tags($this->available_stock));
   	$this->status = htmlspecialchars(strip_tags($this->status));
-  	$this->modified = htmlspecialchars(strip_tags($this->modified));
+    $this->modified = htmlspecialchars(strip_tags($this->modified));
 
 
   	$stmt->bind_param("ssiiis", $this->title, $this->description, $this->price, $this->available_stock, $this->status, $this->modified);
